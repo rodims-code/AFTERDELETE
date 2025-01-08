@@ -15,3 +15,8 @@ def supprimer_fichiers_obsoletes(dossier, delai_secondes):
 # Exemple d'utilisation
 dossier_a_verifier = "deleteTest/"
 supprimer_fichiers_obsoletes(dossier_a_verifier, 60)  # Délai de 5 secondes
+
+while True:
+    print("Vérification des fichiers...")
+    supprimer_fichiers_obsoletes(dossier_a_verifier, 60)  # Délai de 5 secondes
+    time.sleep(60)

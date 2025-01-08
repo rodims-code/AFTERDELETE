@@ -14,4 +14,4 @@ def supprimer_fichiers_obsoletes(dossier, delai_secondes):
 
 # Exemple d'utilisation
 dossier_a_verifier = "deleteTest/"
-supprimer_fichiers_obsoletes(dossier_a_verifier, 5)  # Délai de 5 secondes
+supprimer_fichiers_obsoletes(dossier_a_verifier, 60)  # Délai de 5 secondes
